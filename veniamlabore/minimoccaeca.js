@@ -1,0 +1,1 @@
+await page.goto('<Kibana URL>/app/management/data/data_quality/?pageState=(filters:(fullNames:!f,inactive:!t,integrations:!(),namespaces:!(),qualities:!(),timeRange:(from: ${start},refresh:(pause:!t,value:60000),to: ${end})),v:1)');
